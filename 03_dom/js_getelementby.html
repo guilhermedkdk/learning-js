@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fifht class</title>
+    <style>
+        body {
+            background: sandybrown;
+            font: normal 20pt Arial;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>starting DOM study</h1>
+    <p>here is some paragraph</p>
+    <p>learning how to use <strong>DOM</strong> in js</p>
+    <div id="msg">here is a div</div>
+    <script>
+        var p1 = document.getElementsByTagName('p')[0]
+        var body = document.body
+        var d = document.getElementById('msg')
+        p1.style.color = 'blue'
+        body.style.background = 'black'
+        d.style.background = 'darkblue'
+        //window.document.getElementById('msg').innerText = 'here is a div modified by DOM but extensive'
+        
+        /*
+        var d = document.querySelector('div#msg')
+        d.style.background = 'darkred'
+        */
+    </script>
+</body>
+</html>

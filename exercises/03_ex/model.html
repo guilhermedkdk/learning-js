@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora do dia</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body onload="carregar()">
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <section>
+        <div id="msg">
+            <p>Início: <input type="number" name="ini" id="ini"></p>
+            <p>Fim: <input type="number" name="fim" id="fim"></p>
+            <p>Contador: <input type="number" name="counter" id="counter"></p>   
+            <p><input type="button" value="Contar" onclick="contar()"></p> 
+        </div>
+        <div id="result">
+            <p id="res">Preparando a contagem...</p>
+        </div>
+    </section>
+    <footer>
+        <p>@guilhermedkdk</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
