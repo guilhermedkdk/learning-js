@@ -1,0 +1,29 @@
+{
+  "transactions": [
+    {
+      "name": "Pix",
+      "amount": 20,
+      "id": 4
+    },
+    {
+      "name": "Conta de luz",
+      "amount": -150,
+      "id": 5
+    },
+    {
+      "name": "Freela",
+      "amount": 330,
+      "id": 9
+    },
+    {
+      "name": "Salário",
+      "amount": 3200,
+      "id": 10
+    },
+    {
+      "name": "Viagem",
+      "amount": -950,
+      "id": 11
+    }
+  ]
+}
